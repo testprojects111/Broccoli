@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions" : {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "describe": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "it": true,
+    "expect": true,
+    "sinon": true,
+    "window": true,
+    "document": true,
+    "fetch": true,
+    "testWaitI18n": true,
+    "beforeAll": true,
+    "jest": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "max-len": [2, 130, 4]
+  },
+  "settings": {
+    "react": {
+      "version": "16.4.0"
+    }
+  }
+}
