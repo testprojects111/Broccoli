@@ -1,0 +1,13 @@
+$css--plex: true; // sass-lint:disable-line variable-name-format
+
+@import './components/modal';
+@import './containers/modal-container';
+@import './containers/main-container';
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,22 @@
+
+.modal {
+  $color-white: #fff;
+  background: $color-white;
+  border: 1px solid;
+  margin: 0 calc(50% - 250px);
+  position: fixed;
+  text-align: center;
+  top: 25%;
+  width: 500px;
+
+  &__close {
+    border: 0;
+    cursor: pointer;
+    font-size: 2rem;
+    outline: 0;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    transform: rotateZ(45deg);
+  }
+}

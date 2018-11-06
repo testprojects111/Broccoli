@@ -1,0 +1,26 @@
+{
+  "appTitle": "Broccoli & Co.",
+  "mainTtile1": "A better way",
+  "mainTtile2": "to enjoy every day.",
+  "mainContent": "Be the first to know when we launch",
+  "mainRequestBtn": "Request an invite",
+  "footerContentLine1": "Made with {{heart}} in Melbourne.",
+  "footerContentLine2": "@ 2016 Broccoli & Co. All rights reserved.",
+  "requestModal": {
+    "title": "Request an invite", 
+    "namePlaceHolder": "Full name",
+    "nameErrorMsg": "At least 3 characters.",
+    "emailPlaceHolder": "Email",
+    "emailErrorMsg": "Invalid Email address",
+    "confirmEmailPlaceHolder": "Confirm email",
+    "confirmEmailErrorMsg": "Please confirm the Email address",
+    "sendBtn": "Send",
+    "sendingBtn": "Sending, please wait",
+    "requestErrorMsg": "Error message from server here."
+  },
+  "SuccessModal": {
+    "title": "All Done!",
+    "content": "You will be one of the first to experience Broccoli & Co. when we launch",
+    "okBtn": "OK"
+  }
+}
